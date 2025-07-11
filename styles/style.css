@@ -300,3 +300,57 @@ nav > h2 > a {
   color: black;
   font-weight: 700;
 }
+
+/* support section */
+.support {
+  width: var(--laptop-width);
+  margin: 0px auto 70px;
+  border-radius: 16px;
+  background-image: url("/assets/handshake.jpg");
+  padding: 64px 108px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.support .support_content {
+  padding: 0px 62px;
+  text-align: center;
+  color: white;
+}
+.support .support_content > h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+}
+.support .support_content > p {
+  opacity: var(--common-opacity);
+  margin: 16px 0px 24px;
+}
+
+.support > input {
+  width: 80%;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  padding: 14px 24px;
+  margin-right: 10px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+}
+
+.support > button {
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  padding: 14px 24px;
+  cursor: pointer;
+  transition: 0.6s;
+  font-weight: 600;
+  border: none;
+  border: 2px solid white;
+  font-size: 16px;
+}
+.support > button:hover {
+  background-color: transparent;
+  color: white;
+}
