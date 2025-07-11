@@ -431,11 +431,12 @@ footer .footer_child {
     line-height: 39px;
     margin-top: 30px;
   }
+
   /* Why web development section */
   .perspective {
     width: var(--mobile-width);
     margin: 44px auto;
-    padding: 20px 0;
+    padding: 20px 0 0;
     margin-bottom: 20px;
   }
   .perspective .perspective_intro {
