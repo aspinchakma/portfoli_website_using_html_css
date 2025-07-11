@@ -171,4 +171,71 @@ nav > h2 > a {
 .inspiration_video iframe {
   width: 100%;
   height: 550px;
+  border-radius: 16px;
+}
+
+/* My current target */
+.current_target {
+  width: var(--laptop-width);
+  margin: 0px auto;
+}
+.current_target .current_target_description {
+  padding: 0pc 144px;
+  text-align: center;
+}
+.current_target .current_target_description > h2 {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+}
+.current_target .current_target_description > p {
+  color: rgb(13, 19, 33);
+  opacity: 0.7;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 24px 0 40px;
+}
+.current_target .skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 24px;
+}
+.current_target .skills .skill {
+  padding: 40px;
+}
+.current_target .skills .skill:first-child {
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+}
+
+.current_target .skills .skill:nth-child(2) {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+
+.current_target .skills .skill:last-child {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+}
+
+.current_target .skills .skill > h3 {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  margin-top: 24px;
+}
+.current_target .skills .skill > p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 8px 0 24px;
+}
+.current_target .skills .skill > a {
+  color: black;
 }
