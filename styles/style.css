@@ -354,3 +354,51 @@ nav > h2 > a {
   background-color: transparent;
   color: white;
 }
+
+/* footer section */
+
+footer {
+  padding: 32px 0;
+  background: rgba(13, 19, 33, 0.03);
+}
+footer .footer_child {
+  width: var(--laptop-width);
+  margin: 0px auto;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_child > h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+}
+.footer_icons {
+  font-size: 24px;
+}
+.footer_icons a:first-child i {
+  display: inline-block;
+  background: linear-gradient(
+    180deg,
+    rgb(0, 178, 255) -0.911%,
+    rgb(0, 106, 255) 104.264%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.footer_icons a:last-child i {
+  display: inline-block;
+  background: linear-gradient(
+    135deg,
+    rgb(36, 137, 190) 14.645%,
+    rgb(5, 117, 179) 85.355%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.footer_icons a:nth-child(2) i {
+  color: black;
+}
