@@ -433,60 +433,30 @@ footer .footer_child {
   }
   /* Why web development section */
   .perspective {
-    width: var(--laptop-width);
-    margin: 74px auto;
-    padding: 60px 77px;
-    background: rgba(13, 19, 33, 0.02);
-    border-radius: 16px;
+    width: var(--mobile-width);
+    margin: 44px auto;
+    padding: 20px 0;
   }
   .perspective .perspective_intro {
-    padding: 0px 47px;
-    text-align: center;
+    padding: 0px 20px;
+    margin-bottom: 20px;
   }
 
   .perspective .perspective_intro > h2 {
-    font-weight: 800;
-    line-height: 37px;
-    letter-spacing: 0%;
-    text-align: center;
+    line-height: 33px;
   }
   .perspective .perspective_intro p {
-    margin: 24px 0 48px;
+    margin: 20px 0 48px;
   }
   .reason_container {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    padding: 48px;
-    border-radius: 16px;
-    grid-column-gap: 100px;
-    background: linear-gradient(
-      90deg,
-      rgb(255, 255, 255),
-      rgba(255, 255, 255, 0) 100%
-    );
-    margin-bottom: 30px;
-  }
-
-  .reason_container .reson_left > h2 {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 36px;
-    width: 70%;
-  }
-  .reason_container .reson_left > p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    margin: 14px 0 28px;
+    grid-template-columns: 1fr;
+    padding: 20px;
+    grid-row-gap: 20px;
+    border: 1px solid black;
   }
 
   #reason_container_two {
-    grid-template-columns: 1fr 2fr;
-    background: linear-gradient(
-      270deg,
-      rgb(255, 255, 255),
-      rgba(255, 255, 255, 0) 100%
-    );
+    grid-template-columns: 1fr;
   }
 
   /* My inspiration section */
