@@ -403,7 +403,7 @@ footer .footer_child {
 
 /* Responsive Design */
 :root {
-  --mobile-width: 98%;
+  --mobile-width: 90%;
 }
 @media screen and (max-width: 450px) {
   /* navigation section */
