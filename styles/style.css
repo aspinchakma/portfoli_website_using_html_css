@@ -44,7 +44,7 @@ nav {
   align-items: center;
   justify-content: space-between;
   width: var(--laptop-width);
-  margin: 40px auto;
+  margin: 20px auto 40px;
 }
 
 nav > h2 > a {
@@ -91,6 +91,7 @@ nav > h2 > a {
   margin: 74px auto;
   padding: 60px 77px;
   background: rgba(13, 19, 33, 0.02);
+  border-radius: 16px;
 }
 .perspective .perspective_intro {
   padding: 0px 47px;
@@ -145,7 +146,7 @@ nav > h2 > a {
 /* My inspiration section */
 .inspiration {
   width: var(--laptop-width);
-  margin: 0px auto;
+  margin: 0px auto 70px;
   text-align: center;
 }
 .inspiration .inspiration_description {
@@ -238,4 +239,64 @@ nav > h2 > a {
 }
 .current_target .skills .skill > a {
   color: black;
+}
+
+/* Next target section */
+.next_target {
+  width: var(--laptop-width);
+  margin: 80px auto 49px;
+}
+.next_target .next_target_description {
+  padding: 0px 144px;
+  text-align: center;
+}
+.next_target .next_target_description h3 {
+  color: rgb(13, 19, 33);
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+}
+.next_target .next_target_description p {
+  margin: 24px 0 40px;
+  opacity: var(--common-opacity);
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+}
+
+.target {
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 9fr;
+  margin-bottom: 24px;
+}
+.target .target_details h3 {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+}
+.target_image {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.target_image img {
+  width: 80%;
+}
+.target .target_details > p {
+  margin: 8px 0 24px;
+  opacity: var(--common-opacity);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+}
+.target .target_details > a {
+  color: black;
+  font-weight: 700;
 }
